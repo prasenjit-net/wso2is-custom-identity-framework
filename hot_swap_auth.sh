@@ -1,0 +1,1 @@
+docker cp authenticationendpoint/target/authenticationendpoint.war $1:/home/wso2carbon/wso2is-5.8.0/repository/deployment/server/webapps/
