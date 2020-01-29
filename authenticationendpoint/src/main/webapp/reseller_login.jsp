@@ -41,7 +41,8 @@
   </div>
 
   <div class="form-label-group">
-	<input class="form-control" type="text" id="username" name="username" placeholder="Enter username" required autofocus>
+	<input class="form-control" type="text" id="username-orig" name="username-orig" placeholder="Enter username" required autofocus>
+	<input type="hidden" id="username" name="username">
     <label for="inputEmail">Email address</label>
   </div>
 
@@ -58,5 +59,8 @@
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     <input type="hidden" name="sessionDataKey" value='<%=Encode.forHtmlAttribute(request.getParameter("sessionDataKey"))%>'/>
 </form>
+<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/append-tenant.js" type="text/javascript"></script>
 </body>
 </html>
