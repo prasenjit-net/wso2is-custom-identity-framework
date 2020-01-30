@@ -1,1 +1,2 @@
 docker cp authenticationendpoint/target/authenticationendpoint.war $1:/home/wso2carbon/wso2is-5.8.0/repository/deployment/server/webapps/
+docker cp custom-rest-services/target/api#tele2#svc#v1.0.war $1:/home/wso2carbon/wso2is-5.8.0/repository/deployment/server/webapps/
