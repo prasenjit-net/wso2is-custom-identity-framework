@@ -12,7 +12,7 @@
     <jaxrs:server id="services" address="/">
         <jaxrs:serviceBeans>
             <bean class="nl.tele2.wso2is.rest.TestApi"/>
-
+            <bean class="nl.tele2.wso2is.rest.CreateUpdateUserApi"/>
         </jaxrs:serviceBeans>
         <jaxrs:providers>
             <bean class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
