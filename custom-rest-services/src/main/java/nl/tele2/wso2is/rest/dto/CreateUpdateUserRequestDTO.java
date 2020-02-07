@@ -6,7 +6,11 @@ import io.swagger.annotations.ApiModel;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @ApiModel(description = "")
 public class CreateUpdateUserRequestDTO {
-
+    private String email;
+    private String tempEmail;
+    private String role;
+    private String customerType;
+    private String resellerShopId;
 
     public String getEmail() {
         return email;
@@ -47,18 +51,6 @@ public class CreateUpdateUserRequestDTO {
     public void setResellerShopId(String resellerShopId) {
         this.resellerShopId = resellerShopId;
     }
-
-    private String email;
-
-    private String tempEmail;
-
-    private String role;
-
-    private String customerType;
-
-    private String resellerShopId;
-
-
 
 }
 

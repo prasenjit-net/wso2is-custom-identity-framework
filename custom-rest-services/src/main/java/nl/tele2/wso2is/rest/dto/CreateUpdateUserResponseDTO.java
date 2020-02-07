@@ -6,6 +6,16 @@ import io.swagger.annotations.ApiModel;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @ApiModel(description = "")
 public class CreateUpdateUserResponseDTO {
+    private String uid;
+    private String email;
+    private String tempEmail;
+    private String role;
+    private String customerType;
+    private String msisdn;
+    private String active;
+    private String resellerShopId;
+    private String error;
+
     public String getUid() {
         return uid;
     }
@@ -77,23 +87,5 @@ public class CreateUpdateUserResponseDTO {
     public void setError(String error) {
         this.error = error;
     }
-
-    private String uid;
-
-    private String email;
-
-    private String tempEmail;
-
-    private String role;
-
-    private String customerType;
-
-    private String msisdn;
-
-    private String active;
-
-    private String resellerShopId;
-
-    private String error;
 
 }

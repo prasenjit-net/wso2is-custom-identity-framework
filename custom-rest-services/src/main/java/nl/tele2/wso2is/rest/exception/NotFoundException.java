@@ -46,7 +46,6 @@ public class NotFoundException extends WebApplicationException {
 
     /**
      * Constructs a new exception instance.
-     *
      */
     public NotFoundException() {
         super(Response.Status.NOT_FOUND);

@@ -7,18 +7,18 @@ import io.swagger.annotations.ApiModelProperty;
 
 
 @ApiModel(description = "")
-public class ClaimDTO {
-    private String uri = null;
+public class PropertyDTO {
+    private String key = null;
     private String value = null;
 
     @ApiModelProperty(value = "")
-    @JsonProperty("uri")
-    public String getUri() {
-        return uri;
+    @JsonProperty("key")
+    public String getKey() {
+        return key;
     }
 
-    public void setUri(String uri) {
-        this.uri = uri;
+    public void setKey(String key) {
+        this.key = key;
     }
 
     @ApiModelProperty(value = "")
@@ -33,11 +33,10 @@ public class ClaimDTO {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("class ClaimDTO {\n");
-        sb.append("  uri: ").append(uri).append("\n");
-        sb.append("  value: ").append(value).append("\n");
-        sb.append("}\n");
-        return sb.toString();
+
+        return "class PropertyDTO {\n" +
+                "  key: " + key + "\n" +
+                "  value: " + value + "\n" +
+                "}\n";
     }
 }

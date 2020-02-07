@@ -46,7 +46,6 @@ public class NotAcceptableException extends WebApplicationException {
 
     /**
      * Constructs a new exception instance.
-     *
      */
     public NotAcceptableException() {
         super(Response.Status.NOT_ACCEPTABLE);

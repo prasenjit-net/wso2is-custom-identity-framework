@@ -86,8 +86,8 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon.identity.governance</groupId>
-            <artifactId>org.wso2.carbon.identity.user.endpoint</artifactId>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.user.api</artifactId>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>

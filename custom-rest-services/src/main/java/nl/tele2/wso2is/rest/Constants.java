@@ -29,8 +29,6 @@ public interface Constants {
     public static final String DEFAULT_RESPONSE_CONTENT_TYPE = APPLICATION_JSON;
     public static final String HEADER_CONTENT_TYPE = "Content-Type";
 
-
-
     //default error messages
     public static final String STATUS_FORBIDDEN_MESSAGE_DEFAULT = "Forbidden";
     public static final String STATUS_NOT_FOUND_MESSAGE_DEFAULT = "Not Found";

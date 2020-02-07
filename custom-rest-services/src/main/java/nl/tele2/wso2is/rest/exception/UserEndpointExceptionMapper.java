@@ -22,7 +22,7 @@ import org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 
-public class UserEndpointExceptionMapper extends WebApplicationExceptionMapper{
+public class UserEndpointExceptionMapper extends WebApplicationExceptionMapper {
 
     public Response toResponse(WebApplicationException ex) {
 

@@ -7,8 +7,7 @@ import nl.tele2.wso2is.rest.impl.CreateUpdateUserApiImpl;
 public class CreateUpdateUserFactory {
     private final static CreateUpdateUserApiService service = new CreateUpdateUserApiImpl();
 
-    public static CreateUpdateUserApiService getCreateUpdateUserApi()
-    {
+    public static CreateUpdateUserApiService getCreateUpdateUserApi() {
         return service;
     }
 }
